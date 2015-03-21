@@ -18,6 +18,7 @@ public class Main {
             System.out.println("Enter a positive Integer");
             Guess = input.nextInt();
             System.out.println("You entered " + Guess);
+
             if (randomNumber == Guess) {
                 System.out.println("you have guessed correctly");
                 System.exit(0);
